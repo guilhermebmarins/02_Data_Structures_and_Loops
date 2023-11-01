@@ -1,0 +1,4 @@
+pen
+book
+pencil
+journal
