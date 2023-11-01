@@ -1,0 +1,7 @@
+sum = 0
+
+for i in range(1,11):
+    number = int(input("Type the " + str(i) + "º number: "))
+    sum += number
+
+print("Sum = " + str(sum))

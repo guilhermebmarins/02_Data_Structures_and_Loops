@@ -1,0 +1,13 @@
+a = int(input("Type the value of first number: "))
+b = int(input("Type the value of secondo number: "))
+n = int(input("Type the number of repetitions: "))
+
+seq = []
+
+for i in range(1, (n+1)):
+    num = a * (b ** i)
+    seq.append(num)
+
+print(seq)
+p = sum(seq)
+print("Sum = " + str(p))
